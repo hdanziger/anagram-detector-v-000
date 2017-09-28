@@ -6,9 +6,10 @@ class Anagram
     @name = words
   end
 
-  def match(words)
-    some_words = words.split("")
-    some_words.sort.match
+  def match(array)
+  array.each do |word|
+    word.split("")
+    word.sort == array.sort
   end
 
 
