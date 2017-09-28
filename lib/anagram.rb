@@ -11,6 +11,7 @@ class Anagram
     word.split("")
     word.sort == array.sort
   end
+  end
 
 
 
