@@ -4,13 +4,13 @@ class Anagram
 
   def initialize
     @words = words
-  end 
+  end
 
   def match(words)
     some_words = words.split("")
     some_words.sort.match
   end
-    
-    
-    
+
+
+
   end
